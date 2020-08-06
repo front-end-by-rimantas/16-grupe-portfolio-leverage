@@ -13,10 +13,10 @@ Design: [Leverage portfolio template](https://leverage.codings.dev/home-portfoli
 
 ### Authors
 
-[Ingrida]       (https://github.com/IngriJ)
-[Evelina]       (https://github.com/evelinao1)
-[Alina]         (https://github.com/TechNaa)
-[Aleksandras]   (https://github.com/Aliux02)
-[Martynas]      (https://github.com/devyni)
-[Davidas]       (https://github.com/dawisteam)
-[Vytautas]      (https://github.com/wycka0214)
+[Ingrida](https://github.com/IngriJ)
+[Evelina](https://github.com/evelinao1)
+[Alina](https://github.com/TechNaa)
+[Aleksandras](https://github.com/Aliux02)
+[Martynas](https://github.com/devyni)
+[Davidas](https://github.com/dawisteam)
+[Vytautas](https://github.com/wycka0214)
