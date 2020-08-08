@@ -1,11 +1,13 @@
 @import './reset.css';
 @import './layout.css';
+@import '/css/font-awesome.min.css';
 
 @import './button.css';
 @import './form.css';
 
 @import './header.css';
 @import './hero.css';
+@import './customization.css';
 @import './about-me.css';
 @import './services.css';
 @import './achievements.css';
