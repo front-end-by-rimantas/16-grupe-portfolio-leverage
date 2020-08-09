@@ -1,0 +1,23 @@
+.hero {
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+img {
+
+}
+h1 {
+    width: 350px;
+    margin: calc(50% - 175px);
+    font-size: 50px;
+    color: #7F39FF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p {
+
+}
+.btn {
+    text-align: center;
+}
