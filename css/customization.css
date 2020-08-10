@@ -6,9 +6,6 @@
     padding: 45px 0;
     font-size: 35px;
 }
-.grey-text {
-color: #6F6F6F;
-}
 
 @media (min-width: 420px) {
     .media {
