@@ -1,0 +1,14 @@
+.btn {
+    width: 300px;
+    background-color: #5900FF;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    }
+    .btn:hover {
+        background: linear-gradient(20deg, rgb(131, 64, 255) 20%, rgb(131, 64, 255) 11%, rgb(89, 0, 255) 80%);
+    }
