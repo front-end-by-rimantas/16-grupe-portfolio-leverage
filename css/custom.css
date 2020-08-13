@@ -36,3 +36,10 @@ p {
     color: #6F7696;
     text-align: center;
 }
+
+footer.container {
+    padding: 20px 0;
+}
+    a {
+        text-decoration: none;
+    }
