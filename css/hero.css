@@ -11,10 +11,15 @@
         justify-content: center;
     }
         img {
-            width: 500px;
+            position: absolute;
+            bottom: 0;
+            width: auto;
+            height: 100%;
         }
             .heroText {
                 position: absolute;
+                text-align: center;
+                
             }
                 h1 {
                     width: 350px;
@@ -27,6 +32,7 @@
                 p {
                     
                 }
-                .btn {
-                    text-align: center;
+                .btn i {
+                    color: white;
+                    font-weight: 100;
                 }
