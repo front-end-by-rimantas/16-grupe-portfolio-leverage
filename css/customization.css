@@ -6,15 +6,3 @@
     padding: 45px 0;
     font-size: 35px;
 }
-
-@media (min-width: 420px) {
-    .media {
-        width: 390px;
-    }
-}
-@media (min-width: 900px) {
-    .media {
-        width: 250px;
-
-    }
-}
