@@ -1,8 +1,15 @@
-.col-12.col-md-3.tags > a {
+.col-12.col-md-4 > a {
     color: #8e8e8e;
 
 }
 
 .col-12.col-md-3 > i {
     color: white;
+}
+
+.col-12 > .row {
+        grid-column: 2/3;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 5px;
 }
