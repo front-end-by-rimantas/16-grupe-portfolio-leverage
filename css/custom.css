@@ -38,8 +38,8 @@ p {
     --font-family-sans-serif: "Helvetica Neue",Arial;
 }
 
-footer.container {
-    padding: 20px 0;
+.container.bg-black {
+    padding: 20px 0px;
 }
     a {
         text-decoration: none;
