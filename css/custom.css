@@ -37,11 +37,3 @@ p {
     text-align: center;
     --font-family-sans-serif: "Helvetica Neue",Arial;
 }
-
-footer.container {
-    padding: 20px 0;
-}
-    a {
-        text-decoration: none;
-        color: #5900FF;    
-    }
