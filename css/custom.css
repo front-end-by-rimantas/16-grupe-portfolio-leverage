@@ -45,3 +45,7 @@ p {
         text-decoration: none;
         color: #5900FF;    
     }
+
+.text-algin-left {
+    text-align: left;
+}
