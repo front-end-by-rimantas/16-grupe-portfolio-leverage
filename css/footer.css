@@ -1,10 +1,6 @@
-.container.bg-black {
-    padding: 20px 0;
+.container.bg-dark {
+    padding: 90px 0px;
 }
-    a {
-        text-decoration: none;
-        color: #5900FF;    
-    }
 
 .col-12.col-md-4 > a {
     color: #8e8e8e;
@@ -13,13 +9,6 @@
 
 .col-12.col-md-3 > i {
     color: white;
-}
-
-.col-12 > .row {
-        grid-column: 2/3;
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        gap: 5px;
 }
 
 .txt-center > h4 {
@@ -35,4 +24,11 @@ h4 {
     font-size: 25px;
 }
 
+.container.bg-black {
+    padding: 20px 0;
+}
+    a {
+        text-decoration: none;
+        color: #5900FF;    
+    }
   
