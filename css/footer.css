@@ -1,3 +1,11 @@
+.container.bg-black {
+    padding: 20px 0;
+}
+    a {
+        text-decoration: none;
+        color: #5900FF;    
+    }
+
 .col-12.col-md-4 > a {
     color: #8e8e8e;
 
@@ -13,3 +21,18 @@
         grid-template-columns: repeat(12, 1fr);
         gap: 5px;
 }
+
+.txt-center > h4 {
+        text-align: center;
+        color: white;
+} 
+.col-12.col-md-3 > p {
+    
+    text-align: left;
+    color: #8e8e8e;
+} 
+h4 {
+    font-size: 25px;
+}
+
+  
