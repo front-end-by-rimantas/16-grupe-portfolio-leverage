@@ -1,0 +1,33 @@
+.hero {
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+    .heroContent{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        img {
+            position: absolute;
+            bottom: 0;
+            width: auto;
+            height: 100%;
+        }
+            .heroText {
+                position: absolute;
+                text-align: center;
+                
+            }
+                h1 {
+                    width: 350px;
+                    margin: 0 calc(50% - 175px);
+                    font-size: 50px;
+                    color: #7F39FF;
+                    margin-bottom: 20px;
+                }
+                .heroText > p {
+                    padding: 20px;
+                }
