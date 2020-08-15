@@ -7,16 +7,23 @@
         font-size: 22px;
 }
 .card {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    padding: 35px;
+    padding: 30px;
     border: none;
     border-radius: 2px;
-    background-color: var(--card-bg-color);
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
     transition-timing-function: cubic-bezier(.25, .25, .75, .75);
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
     transition-property: opacity, transform;
 }
+    .card:hover {
+        transform: translateY(-7.5px);
+        background: linear-gradient(20deg, rgb(131, 64, 255) 20%, rgb(131, 64, 255) 11%, rgb(89, 0, 255) 80%);
+        color: #fff;
+    }
+        .card:hover > p {
+            color: white;
+        }
+        .card:hover > .icon {
+            color: white;
+        }
