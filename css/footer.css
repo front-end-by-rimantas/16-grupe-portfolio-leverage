@@ -1,31 +1,37 @@
 .container.bg-dark {
     padding: 90px 0px;
 }
-    .txt-center > .btm-title {
-            color: white;
-            font-size: 25px;
+    .txt-center {
+        text-align: center;     
     }
-        .l-log {
-            font-size: 35px;
+        .btm-title {
+            color: white;
+            font-size: 25px;        
         }
+            .l-log {
+                font-size: 35px;
+            }
+
+.nav-link {
+    color: #8e8e8e;
+
+}
+
+.nav-item {
+    align-self: stretch; 
+}
 
 ul {
     list-style: none;
 }
-    .nav-item {
-        align-self: center;
-        text-decoration: none;
+    .tag-item {
+        display: inline-block;
+        color: #8e8e8e;
+        margin: 0px 5px 10px 0px;
+        padding: 5px 15px;
+        border: solid 1px;
+        font-size: 17px;
     }
-
-
-
-.tag-item {
-    color: #8e8e8e;
-    margin: 0px 5px 20px 0px;
-    padding: 2px 10px;
-}
-
-
 
 
 .container.bg-black {
