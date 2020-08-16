@@ -6,19 +6,22 @@
     }
         .btm-title {
             color: white;
-            font-size: 25px;        
+            font-size: 30px;        
         }
             .l-log {
-                font-size: 35px;
+                font-size: 40px;
             }
 
 .nav-link {
     color: #8e8e8e;
-
+    margin: 5px 5px;
+    padding: 5px 5px;
+    display: inline-block;
 }
 
 .nav-item {
-    align-self: stretch; 
+    align-self: stretch;
+    font-size: 17px; 
 }
 
 ul {
@@ -30,6 +33,7 @@ ul {
         margin: 0px 5px 10px 0px;
         padding: 5px 15px;
         border: solid 1px;
+        border-radius: 2px;
         font-size: 17px;
     }
 
@@ -41,3 +45,7 @@ ul {
         text-decoration: none;
         color: #5900FF;    
     }
+
+i {
+    color: black;
+}
