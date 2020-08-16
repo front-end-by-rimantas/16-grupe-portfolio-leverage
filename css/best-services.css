@@ -17,20 +17,24 @@
     transition-duration: 0.3s;
     transition-property: opacity, transform;
 }
-    .card:hover {
-        transform: translateY(-7.5px);
-        background: linear-gradient(20deg, rgb(131, 64, 255) 20%, rgb(131, 64, 255) 11%, rgb(89, 0, 255) 80%);
-        color: white;
+    .card > .icon {
+        padding: 0;
+        padding-bottom: 45px;
     }
-        .card:hover > p {
+    .card:hover {
+            transform: translateY(-7.5px);
+            background: linear-gradient(20deg, rgb(131, 64, 255) 20%, rgb(131, 64, 255) 11%, rgb(89, 0, 255) 80%);
             color: white;
         }
-        .card:hover > .icon {
-            color: white;
-        }
-        .card:hover > h3 {
-            color: white;
-        }
+            .card:hover > p {
+                color: white;
+            }
+            .card:hover > .icon {
+                color: white;
+            }
+            .card:hover > h3 {
+                color: white;
+            }
     .arrow {
         color: #888;
         font-size: 25px;
