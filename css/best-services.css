@@ -26,13 +26,7 @@
             background: linear-gradient(20deg, rgb(131, 64, 255) 20%, rgb(131, 64, 255) 11%, rgb(89, 0, 255) 80%);
             color: white;
         }
-            .card:hover > p {
-                color: white;
-            }
-            .card:hover > .icon {
-                color: white;
-            }
-            .card:hover > h3 {
+            .card:hover > * {
                 color: white;
             }
     .arrow {
