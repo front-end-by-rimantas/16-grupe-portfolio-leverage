@@ -46,6 +46,8 @@ ul {
         color: #5900FF;    
     }
 
-.fa {
+.nav.link > .icon {
+    width: 20px;
+    height: 20px;
     color: white;
 }
