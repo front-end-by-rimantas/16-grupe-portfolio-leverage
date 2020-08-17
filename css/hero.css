@@ -10,7 +10,7 @@
         align-items: center;
         justify-content: center;
     }
-        img {
+        .hero img {
             position: absolute;
             bottom: 0;
             width: auto;

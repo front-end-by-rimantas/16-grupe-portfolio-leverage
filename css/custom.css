@@ -45,3 +45,10 @@ p {
         text-decoration: none;
         color: #5900FF;    
     }
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
