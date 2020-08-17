@@ -1,14 +1,15 @@
-section:nth-child(n+3):after{   position: absolute;
+section.dashed::after{  
+                                position: absolute;
                                 right: 50%;
                                 top: -50px;
                                 content: " ";
                                 width: 5px;
                                 height: 100px;
-                                background-color: blue;
-                            } ;
-section:nth-child(10):after {
-    content: "?";
-}
+                                background: rgb(89,0,255);
+                                background: linear-gradient(45deg, rgba(89,0,255,1) 0%, rgba(89,0,255,1) 35%, rgba(131,64,255,1) 100%);                          } ;
+section:nth-child(10)::after {
+    content: none;
+  }
 section {
     position: relative;
 }
