@@ -7,7 +7,7 @@ section.dashed::after{
                                 height: 100px;
                                 background: rgb(89,0,255);
                                 background: linear-gradient(45deg, rgba(89,0,255,1) 0%, rgba(89,0,255,1) 35%, rgba(131,64,255,1) 100%);                          } ;
-section:nth-child(10)::after {
+*:after {
     content: none;
   }
 section {
