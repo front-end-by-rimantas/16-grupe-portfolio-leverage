@@ -52,8 +52,10 @@ ul {
         color: #5900FF;    
     }
 
-.nav.link > .icon {
+.nav.link > .fa {
     width: 20px;
     height: 20px;
     color: white;
+    font-size: 17px;
 }
+
