@@ -36,6 +36,12 @@ ul {
         border-radius: 2px;
         font-size: 17px;
     }
+        .tag-item:hover {
+            color: #5900FF;
+        }
+.nav-link:hover {
+    color: #5900FF;
+}
 
 
 .container.bg-black {
@@ -50,4 +56,8 @@ ul {
     width: 20px;
     height: 20px;
     color: white;
+}
+
+li {
+
 }
