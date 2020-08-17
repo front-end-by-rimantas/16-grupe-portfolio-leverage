@@ -1,0 +1,7 @@
+
+
+section:nth-child(-n+4):after{content: " ";
+                                width: 7px;
+                                height: 100px;
+                                background-color: blue;
+                            } ;
