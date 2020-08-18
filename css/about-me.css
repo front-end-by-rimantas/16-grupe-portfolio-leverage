@@ -5,12 +5,23 @@
 @media (min-width: 786px) {
     .left-align {
         text-align: left;
+    
+    }
+
+    .left-align-p {
+        text-align: left;
     }
     
     .left-icon {
         float: left;
-        text-align: justify;
-        padding: 45px;
+        align-self: center;
+        padding: 30px 60px 50px 20px;
     }
     
+}
+
+@media (min-width: 1000px) {
+    .left-align-p {
+        margin-bottom: 30px;
+    }
 }
