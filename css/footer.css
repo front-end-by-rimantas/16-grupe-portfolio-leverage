@@ -19,31 +19,24 @@
     }
         .nav-link {
             color: #8e8e8e;
-            margin: 5px 5px;
-            padding: 5px 5px;
         }
             .nav-link:hover {
                 color: #5900FF;
             }
+                .fa {
+                    margin: 5px 5px;
+                }
 
-.bot-share .fa {
-    width: 25px;
-    height: 25px;
-    padding: 5px;
-    color: #5900FF;
-    font-size: 17px;
-    margin: 10px 0px;
+.bot-share .nav-item {
+    display: inline;
 }
+    .bot-share .fa {
+        padding: 5px;
+        color: #5900FF; /*modify icon size, color and gradient*/
+        font-size: 17px;
+        margin: 15px 10px;
+    }
 
-.fa {
-    margin: 10px 0px;
-    color: #8e8e8e;
-    width: 20px;
-    height: 20px;
-    color: white;
-    font-size: 17px;
-}
-    
 .tag-item {
         display: inline-block;
         color: #8e8e8e;
@@ -56,6 +49,10 @@
         .tag-item:hover {
             color: #5900FF;
         }
+
+
+
+
 
 .container.bg-black {
     padding: 20px 0;
