@@ -37,4 +37,12 @@
       color: #333 !important;
     }
 
-    @media (min-weight)
+    @media (min-width: 520px) {
+      grid-gap: 0.5em;
+    }
+    @media (min-width: 786px) {
+      grid-gap: 1em;
+    }
+    @media (min-width: 1000px) {
+      grid-gap: 1.em;
+    }
