@@ -16,7 +16,8 @@
     list-style: none;
 }
     .nav-item {
-        font-size: 17px; 
+        font-size: 17px;
+        align-items: stretch;
     }
         .nav-link {
             color: #8e8e8e;
@@ -53,8 +54,6 @@
         color: white;
     }
 
-
-
 .tag-item {
         display: inline-block;
         color: #8e8e8e;
@@ -67,10 +66,6 @@
         .tag-item:hover {
             color: #5900FF;
         }
-
-
-
-
 
 .container.bg-black {
     padding: 20px 0;
