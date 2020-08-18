@@ -4,30 +4,47 @@
     .txt-center {
         text-align: center;     
     }
-        .btm-title {
+        .bot-title {
             color: white;
             font-size: 30px;        
         }
-            .l-log {
-                font-size: 40px;
+            .lev-log {
+                font-size: 40px; /* modify Leverage color*/
             }
-
-.nav-link {
-    color: #8e8e8e;
-    margin: 5px 5px;
-    padding: 5px 5px;
-    display: inline-block;
-}
-
-.nav-item {
-    align-self: stretch;
-    font-size: 17px; 
-}
-
-ul {
+.bot-nav {
     list-style: none;
 }
-    .tag-item {
+    .nav-item {
+        font-size: 17px; 
+    }
+        .nav-link {
+            color: #8e8e8e;
+            margin: 5px 5px;
+            padding: 5px 5px;
+        }
+            .nav-link:hover {
+                color: #5900FF;
+            }
+
+.bot-share .fa {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    color: #5900FF;
+    font-size: 17px;
+    margin: 10px 0px;
+}
+
+.fa {
+    margin: 10px 0px;
+    color: #8e8e8e;
+    width: 20px;
+    height: 20px;
+    color: white;
+    font-size: 17px;
+}
+    
+.tag-item {
         display: inline-block;
         color: #8e8e8e;
         margin: 0px 5px 10px 0px;
@@ -39,10 +56,6 @@ ul {
         .tag-item:hover {
             color: #5900FF;
         }
-.nav-link:hover {
-    color: #5900FF;
-}
-
 
 .container.bg-black {
     padding: 20px 0;
@@ -52,10 +65,5 @@ ul {
         color: #5900FF;    
     }
 
-.fa {
-    width: 20px;
-    height: 20px;
-    color: white;
-    font-size: 17px;
-}
+
 
