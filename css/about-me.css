@@ -1,0 +1,16 @@
+.img-me {
+    width: 100%;
+}
+
+@media (min-width: 786px) {
+    .left-align {
+        text-align: left;
+    }
+    
+    .left-icon {
+        float: left;
+        text-align: justify;
+        padding: 45px;
+    }
+    
+}
