@@ -28,13 +28,16 @@
                 .fa {
                     margin: 5px 5px;
                 }
+.p-2 {
+    padding: 7px;
+}
 
 .bot-share .nav-item {
     display: inline;
 }
     .bot-share .fa {
         padding: 5px;
-        color: #5900FF; /*modify icon size, color and gradient*/
+        color: #5900FF;
         font-size: 17px;
         margin: 15px 10px;
     }
@@ -45,7 +48,7 @@
     color: white;
     border-style: none;
     padding: 6px 25px;
-    margin: 70px 0px 20px 0px;
+    margin: 40px 0px 20px 0px;
     text-align: center;
     text-transform: uppercase;
     font-size: 15px;
