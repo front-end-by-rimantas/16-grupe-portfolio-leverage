@@ -30,7 +30,11 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 25px 0;
     white-space: nowrap;
+
+  .fa.fa-rocket {
+      padding: 10px 10px;
   }
+
 
     a {
       color: #333 !important;
@@ -45,3 +49,4 @@
     }
     @media (min-width: 1000px) {
       grid-gap: 1.em;
+    
