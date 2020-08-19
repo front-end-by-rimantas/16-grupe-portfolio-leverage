@@ -1,6 +1,6 @@
-"use strict";
+"use strict"
 
-import data from '../js/data.js'
+import data from './data.js'
 
 import { renderBestServices } from './renderBestServices.js';
 
