@@ -15,7 +15,8 @@
             position: absolute;
             bottom: 0;
             width: auto;
-            height: 80%;
+            max-width: 100%;
+            height: 85%;
         }
             .heroText {
                 position: absolute;
@@ -33,6 +34,10 @@
                     display: none;
                     padding: 20px 0px;
                 }
+                .heroText > .btn{
+                    display: inline-block;
+                    width: auto;
+                }
 @media(min-width:786px){
     .heroText {
         position: absolute;
@@ -47,6 +52,7 @@
     .heroText > p {
         display: inline-block;
         text-align: left;
+        width: 90%;
         
     }
     .hero img {
@@ -59,4 +65,24 @@
         width: 100%;
         margin-left: 0;
     }
+    .heroText > p {
+        display: inline-block;
+        text-align: left;
+        width: 80%;
+        
+    }
 }
+@media (min-width: 1400px) {
+    h1{
+        font-size: 100px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .heroText > p {
+        display: inline-block;
+        text-align: left;
+        width: 85%;
+}
+    .heroText {
+        width: 55%
+    }
