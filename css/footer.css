@@ -1,23 +1,18 @@
 .container.bg-dark {
     padding: 90px 0px;
 }
-    .txt-center {
-        justify-content: start;
-        text-align: center;     
-    }
         .bot-title {
             color: white;
             font-size: 30px;        
         }
             .lev-log {
-                font-size: 40px; /* modify Leverage color*/
+                font-size: 40px;
             }
 .bot-nav {
     list-style: none;
 }
     .nav-item {
         font-size: 17px;
-        align-items: stretch;
     }
         .nav-link {
             color: #8e8e8e;
@@ -29,7 +24,7 @@
                     margin: 5px 5px;
                 }
 .p-2 {
-    padding: 7px;
+    padding: 7px 0px;
 }
 
 .bot-share .nav-item {
@@ -38,8 +33,7 @@
     .bot-share .fa {
         padding: 5px;
         color: #5900FF;
-        font-size: 17px;
-        margin: 15px 10px;
+        margin: 15px 20px 15px 0px;
     }
 
 .bot-btn {
@@ -56,6 +50,9 @@
     .bot-btn .fa {
         color: white;
     }
+        .bot-btn:hover {
+            background: linear-gradient(20deg, rgb(131, 64, 255) 20%, rgb(131, 64, 255) 11%, rgb(89, 0, 255) 80%);
+        }
 
 .tag-item {
         display: inline-block;
@@ -78,5 +75,10 @@
         color: #5900FF;    
     }
 
+    @media (min-width: 1000px) {
+        .text-md-left {
+        text-align: left;
+        }
+    }
 
 
