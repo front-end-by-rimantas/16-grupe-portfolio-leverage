@@ -77,13 +77,13 @@
 
     @media (min-width: 1000px) {
         .text-md-left {
-        text-align: left;
+            text-align: left;
         }
     }
 
-    @media (min-width: 1300px) {
+    @media (min-width: 1400px) {
         .tag-item {
-        margin: 0x 10px 10px 0px;
+        margin: 0px 10px 10px 0px;
         }
     }
 
