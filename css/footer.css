@@ -81,7 +81,7 @@
         }
     }
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1200px) {
         .m-3 {
         margin: 0x 10px 10px 0px;
         }
