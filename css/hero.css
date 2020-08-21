@@ -3,6 +3,7 @@
     background-position: center bottom;
     background-attachment: fixed;
     min-height: 100vh;
+    padding: 0;
 }
     .heroContent{
         position: relative;
@@ -14,7 +15,8 @@
             position: absolute;
             bottom: 0;
             width: auto;
-            height: 100%;
+            max-width: 100%;
+            height: 85%;
         }
             .heroText {
                 position: absolute;
@@ -29,5 +31,58 @@
                     margin-bottom: 20px;
                 }
                 .heroText > p {
-                    padding: 20px;
+                    display: none;
+                    padding: 20px 0px;
                 }
+                .heroText > .btn{
+                    display: inline-block;
+                    width: auto;
+                }
+@media(min-width:786px){
+    .heroText {
+        position: absolute;
+        text-align: left;
+        width: 60%;
+        left: 0%;
+    }
+    h1 {
+        text-align: left;
+        margin-left: 0;
+    }
+    .heroText > p {
+        display: inline-block;
+        text-align: left;
+        width: 90%;
+        
+    }
+    .hero img {
+        right: 0%;
+    }
+}
+@media (min-width: 1000px) {
+    h1{
+        font-size: 75px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .heroText > p {
+        display: inline-block;
+        text-align: left;
+        width: 80%;
+        
+    }
+}
+@media (min-width: 1400px) {
+    h1{
+        font-size: 100px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .heroText > p {
+        display: inline-block;
+        text-align: left;
+        width: 85%;
+}
+    .heroText {
+        width: 55%
+    }
