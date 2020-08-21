@@ -81,8 +81,8 @@
         }
     }
 
-    @media (min-width: 1200px) {
-        .m-3 {
+    @media (min-width: 1300px) {
+        .tag-item {
         margin: 0x 10px 10px 0px;
         }
     }
