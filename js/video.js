@@ -39,7 +39,7 @@ class Video {
                                         <h2>${videoData.title}</h2>
                                         <p>${videoData.text}</p>  
                                     </div>
-                                    <div class="col-12 video">
+                                    <div class="col-12 videobox">
                                         <a href=${videoData.link}> 
                                             <i class="fa fa-play"></i>
                                             <img src="../img/watchVideoPic.jpg" alt="videoPhoto">

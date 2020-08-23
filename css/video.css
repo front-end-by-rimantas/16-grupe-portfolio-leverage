@@ -1,0 +1,20 @@
+.videobox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .videobox a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .videobox .fa {
+                font-size: 70px;
+                position: absolute;
+                
+            }
+        .videobox img{
+            width: 100%;
+        }
