@@ -39,6 +39,4 @@ const bestServices = [
 
 // other const
 
-export default {
-    bestServices
-};
+export default { bestServices };

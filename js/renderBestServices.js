@@ -2,9 +2,10 @@ function renderBestServices( selector, data ) {
 
     const DOM = document.querySelector(selector);
     let HTML = '';
-    const size = data.lenght;
+    const size = data.length;
 
     for ( let i=0; i<size; i++ ) {
+        
         const service = data[i];
         console.log(service);
 
@@ -15,8 +16,6 @@ function renderBestServices( selector, data ) {
                     ${service.link}
                 </div>`;
     }
-
     return DOM.innerHTML = HTML;
 }
-
 export { renderBestServices };
