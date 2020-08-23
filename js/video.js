@@ -36,11 +36,14 @@ class Video {
     renderVideo (){
         this.DOM.innerHTML = ` <div class="row">
                                     <div  class="col-12">
-                                        <h2 class="section-title">${videoData.title}</h2>
-                                        <p class="section-description">${videoData.text}</p>  
+                                        <h2>${videoData.title}</h2>
+                                        <p>${videoData.text}</p>  
                                     </div>
                                     <div class="col-12 video">
-                                        VIDEO
+                                        <a href=${videoData.link}> 
+                                            <i class="fa fa-play"></i>
+                                            <img src="../img/watchVideoPic.jpg" alt="videoPhoto">
+                                        </a>
                                     </div>
                                 </div>`;
                                 
