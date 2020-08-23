@@ -5,11 +5,11 @@ function renderBestServices( selector, data ) {
     const size = data.length;
 
     for ( let i=0; i<size; i++ ) {
-        
+
         const service = data[i];
         console.log(service);
 
-        HTML += `<div class="card">
+        HTML += `<div class="service">
                     ${service.icon}
                     <h3>${service.title}</h3>
                     <p>${service.descripcion}</p>
