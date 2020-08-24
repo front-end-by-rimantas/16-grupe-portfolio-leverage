@@ -9,7 +9,7 @@ function renderBestServices( selector, data ) {
         const service = data[i];
         console.log(service);
 
-        HTML += `<div class="card">
+        HTML += `<div class="card col-12 col-sm-6 col-md-4">
                     ${service.icon}
                     <h3>${service.title}</h3>
                     <p>${service.descripcion}</p>
