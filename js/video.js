@@ -5,16 +5,18 @@ class Video {
     constructor(param) {
         this.selector = param.selector;
         this.DOM = null;
-        this.init();
+        /*this.init();*/
+        this.renderVideo();
+       
     }
-    init() {
+    /*init() {
         if (!this.isValidSelector()) {
             return;
         }
         this.renderVideo();
     }
 
-    isValidSelector() {
+    /*isValidSelector() {
         if (typeof this.selector !== 'string') {
             console.warn('Selector should be a "string" type.');
             return false;
@@ -31,9 +33,10 @@ class Video {
         }
 
         return true;
-    }
+    }*/
     
     renderVideo (){
+        this.DOM = document.querySelector(this.selector)
         this.DOM.innerHTML = ` <div class="row">
                                     <div  class="col-12">
                                         <h2>${videoData.title}</h2>
