@@ -7,7 +7,6 @@
     font-size: 28px;
 }
 .card {
-    display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
     padding: 35px;
