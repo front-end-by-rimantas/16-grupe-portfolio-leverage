@@ -45,3 +45,6 @@
                         .picturebox img{
                             width: 100%;
                         }
+.show > .video-background{
+    display: inline-block;
+}

@@ -5,10 +5,21 @@ class Video {
     constructor(param) {
         this.selector = param.selector;
         this.DOM = null;
-        
         this.renderVideo();
-       
+        this.playVideoDOM = null;
+        this.closeDOM = null;
     }
+
+    addEvents() {
+        this.playVideoDOM.addEventListener('click', () => {
+        this.DOM.classList.add('show');
+        
+        });
+        this.closeDOM.addEventListener('click', () => {
+        this.DOM.classList.remove('show');
+        });
+    }
+
  renderVideo (){
         this.DOM = document.querySelector(this.selector)
         this.DOM.innerHTML = ` <div class="row">
@@ -17,7 +28,7 @@ class Video {
                                         <p>${videoData.text}</p>  
                                     </div>
                                     <div class="col-12 picturebox">
-                                        <a href=${videoData.link}> 
+                                        <a class="play" href="#"> 
                                             <i class="fa fa-play"></i>
                                             <img src="../img/watchVideoPic.jpg" alt="videoPhoto">
                                         </a>
@@ -36,7 +47,10 @@ class Video {
                                         </div>  
                                         <div class="video-footer">footer</div>
                                 </div>`;
-                                
+                 
+        this.playVideoDOM = this.DOM.querySelector('.play');
+        this.closeDOM = this.DOM.querySelector('.fa-times');  
+        console.log(this.DOM.classList)                   
     }
 }
 
