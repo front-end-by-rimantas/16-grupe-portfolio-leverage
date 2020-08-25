@@ -1,20 +1,47 @@
-.videobox{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-    .videobox a{
+.container.video > .video-background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+}   
+    .video-position{
+        width: 100%;
+        height: 100%;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
     }
-        .videobox .fa {
-                font-size: 70px;
-                position: absolute;
-                
+            iframe {
+                width: 560px;
+                height: 315px;
             }
-        .videobox img{
-            width: 100%;
-        }
+            .video-footer{
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+            }
+                .picturebox{
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                    .picturebox a{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                        .picturebox .fa {
+                                font-size: 70px;
+                                position: absolute;
+                                
+                            }
+                        .picturebox img{
+                            width: 100%;
+                        }
