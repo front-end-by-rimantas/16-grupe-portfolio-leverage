@@ -37,16 +37,16 @@ class Video {
                                     </div>
                                     <div class="video-background">
                                             <div class="video-header">header
-                                                <i class="fa fa-clone"></i>
-                                                <i class="fa fa-search-minus"></i>
-                                                <i class="fa fa-search-plus"></i>
-                                                <i class="fa fa-arrows-alt"></i>
                                                 <i class="fa fa-times"></i>
+                                                <i class="fa fa-arrows-alt"></i>
+                                                <i class="fa fa-search-plus"></i>
+                                                <i class="fa fa-search-minus"></i>
+                                                <i class="fa fa-clone"></i>
                                             </div>
                                             <div class="video-position">
                                                 <iframe src="//www.youtube.com/embed/7e90gBu4pas?wmode=opaque&amp;autoplay=1&amp;enablejsapi=1" frameborder="0"></iframe>
                                             </div>  
-                                            <div class="video-footer">footer</div>
+                                            <div class="video-footer">Fit image</div>
                                     </div>`;
                     
             this.playVideoDOM = this.DOM.querySelector('.play');

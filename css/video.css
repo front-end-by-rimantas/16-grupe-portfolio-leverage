@@ -16,6 +16,11 @@
         align-items: center;
         justify-content: center;
     }
+            .video-header {
+                /*display: inline-block;   Galbut nereikes*/ 
+                width: 100%;
+                position: absolute;
+            }
             iframe {
                 width: 560px;
                 height: 315px;
@@ -24,28 +29,43 @@
                 position: fixed;
                 bottom: 0;
                 width: 100%;
+                color: white;
                 text-align: center;
+                padding: 10px 40px;
+                font-size: 20px;
             }
-                .picturebox{
-                    position: relative;
+            .picturebox{
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+                .picturebox a{
                     display: flex;
                     justify-content: center;
                     align-items: center;
                 }
-
-                    .picturebox a{
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
-                        .picturebox .fa {
-                                font-size: 70px;
-                                position: absolute;
-                                
-                            }
-                        .picturebox img{
-                            width: 100%;
+                    .picturebox .fa {
+                            font-size: 70px;
+                            position: absolute;
+                            
                         }
+                    .picturebox img{
+                        width: 100%;
+                    }
 .container.video.show > .video-background{
     display: inline-block;
+    
+}
+.video-background > .video-header > .fa {
+    display: inline-block;
+    width: 100%;
+    color: #999;
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    padding: 10px 0px;
+    width: 50px;
+    cursor: pointer;
 }
