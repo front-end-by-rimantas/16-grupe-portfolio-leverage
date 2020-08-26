@@ -6,6 +6,7 @@
     right: 0;
     bottom: 0;
     z-index: 1;
+    background-color: black;
     display: none;
 }   
     .video-position{
@@ -45,6 +46,6 @@
                         .picturebox img{
                             width: 100%;
                         }
-.show > .video-background{
+.container.video.show > .video-background{
     display: inline-block;
 }
