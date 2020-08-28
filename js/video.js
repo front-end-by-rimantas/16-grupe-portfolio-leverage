@@ -9,6 +9,7 @@ class Video {
         this.addEvents();
         this.playVideoDOM = null;
         this.closeDOM = null;
+       
     }
 
     addEvents() {
@@ -19,6 +20,8 @@ class Video {
         this.closeDOM.addEventListener('click', () => {
         this.DOM.classList.remove('show');
         });
+        
+        
     }
 
     renderVideo (){
@@ -44,14 +47,15 @@ class Video {
                                                 <i class="fa fa-clone"></i>
                                             </div>
                                             <div class="video-position">
-                                                <iframe src="//www.youtube.com/embed/7e90gBu4pas?wmode=opaque&amp;autoplay=1&amp;enablejsapi=1" frameborder="0"></iframe>
+                                                <iframe src="//www.youtube.com/embed/7e90gBu4pas?wmode=opaque&amp;autoplay=1&amp;enablejsapi=1" frameborder="0" allowfullscreen="true"></iframe>
                                             </div>  
                                             <div class="video-footer">Fit image</div>
                                     </div>`;
                     
             this.playVideoDOM = this.DOM.querySelector('.play');
-            this.closeDOM = this.DOM.querySelector('.fa-times');  
-            console.log(this.DOM.classList)                   
+            this.closeDOM = this.DOM.querySelector('.fa-times');
+           
+            console.log(this.closeVideoDOM)                   
         }
 }
 
