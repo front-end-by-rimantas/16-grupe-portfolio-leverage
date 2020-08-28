@@ -9,19 +9,27 @@ class Video {
         this.addEvents();
         this.playVideoDOM = null;
         this.closeDOM = null;
+        
+        
        
     }
 
     addEvents() {
         this.playVideoDOM.addEventListener('click', () => {
         this.DOM.classList.add('show');
+        this.youtube.add('iframe');
         
         });
         this.closeDOM.addEventListener('click', () => {
         this.DOM.classList.remove('show');
+        this.youtube.remove('iframe');
         });
         
-        
+        this.backDOM.addEventListener ('click',() => {
+        this.DOM.classList.remove('show');
+        this.youtube.remove('iframe');
+        }); 
+
     }
 
     renderVideo (){
@@ -39,23 +47,27 @@ class Video {
                                         </div>
                                     </div>
                                     <div class="video-background">
-                                            <div class="video-header">header
+                                            <div class="video-header">
                                                 <i class="fa fa-times"></i>
                                                 <i class="fa fa-arrows-alt"></i>
                                                 <i class="fa fa-search-plus"></i>
                                                 <i class="fa fa-search-minus"></i>
                                                 <i class="fa fa-clone"></i>
                                             </div>
-                                            <div class="video-position">
-                                                <iframe src="//www.youtube.com/embed/7e90gBu4pas?wmode=opaque&amp;autoplay=1&amp;enablejsapi=1" frameborder="0" allowfullscreen="true"></iframe>
-                                            </div>  
+                                            <div class="video-box"> 
+                                                <div id="youtube"class="video-position">
+                                                    <iframe src="//www.youtube.com/embed/7e90gBu4pas?wmode=opaque&amp;autoplay=1&amp;enablejsapi=1" frameborder="0" allowfullscreen="true"></iframe>
+                                                </div> 
+                                            </div>     
                                             <div class="video-footer">Fit image</div>
                                     </div>`;
                     
             this.playVideoDOM = this.DOM.querySelector('.play');
             this.closeDOM = this.DOM.querySelector('.fa-times');
-           
-            console.log(this.closeVideoDOM)                   
+            this.backDOM = this.DOM.querySelector('.video-box');
+            this.youtube = document.getElementById("youtube");
+
+            console.log(this.youtube)                   
         }
 }
 
