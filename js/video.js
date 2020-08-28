@@ -9,25 +9,22 @@ class Video {
         this.addEvents();
         this.playVideoDOM = null;
         this.closeDOM = null;
-        
-        
-       
-    }
+        }
 
     addEvents() {
         this.playVideoDOM.addEventListener('click', () => {
         this.DOM.classList.add('show');
-        this.youtube.add('iframe');
+        this.youtube.setAttribute("src")
         
         });
         this.closeDOM.addEventListener('click', () => {
         this.DOM.classList.remove('show');
-        this.youtube.remove('iframe');
+        this.youtube.removeAttribute("src");
         });
         
         this.backDOM.addEventListener ('click',() => {
         this.DOM.classList.remove('show');
-        this.youtube.remove('iframe');
+        this.youtube.removeAttribute("src");
         }); 
 
     }
@@ -55,8 +52,8 @@ class Video {
                                                 <i class="fa fa-clone"></i>
                                             </div>
                                             <div class="video-box"> 
-                                                <div id="youtube"class="video-position">
-                                                    <iframe src="//www.youtube.com/embed/7e90gBu4pas?wmode=opaque&amp;autoplay=1&amp;enablejsapi=1" frameborder="0" allowfullscreen="true"></iframe>
+                                                <div class="video-position">
+                                                    <iframe id="youtube" src="//www.youtube.com/embed/7e90gBu4pas?wmode=opaque&amp;autoplay=1&amp;enablejsapi=1" frameborder="0" allowfullscreen="true"></iframe>
                                                 </div> 
                                             </div>     
                                             <div class="video-footer">Fit image</div>
