@@ -6,9 +6,7 @@ import {Video} from './video.js';
 const { bestServices } = data;
 renderBestServices('#best-services .service', bestServices );
 
-new Video ({
-        selector: '#video',
-    });
+new Video ({selector: '#video'});
 
 
 

@@ -1,4 +1,5 @@
 import videoData from '../data/videoData.js'
+import  videoPlayer  from './videoPlayer.js';
 
 
 class Video {
@@ -51,11 +52,7 @@ class Video {
                                                 <i class="fa fa-search-minus"></i>
                                                 <i class="fa fa-clone"></i>
                                             </div>
-                                            <div class="video-box"> 
-                                                <div class="video-position">
-                                                    <iframe id="youtube" src="${videoData.link};autoplay=1&amp;enablejsapi=1" frameborder="0" allowfullscreen="true"></iframe>
-                                                </div> 
-                                            </div>     
+                                            ${videoPlayer(videoData)}   
                                             <div class="video-footer">Fit image</div>
                                     </div>`;
                     
@@ -64,7 +61,7 @@ class Video {
             this.backDOM = this.DOM.querySelector('.video-box');
             this.youtube = document.getElementById("youtube");
 
-            console.log(this.youtube)                   
+                            
         }
 }
 
