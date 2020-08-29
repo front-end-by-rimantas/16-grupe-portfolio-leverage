@@ -45,14 +45,19 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    color: linear-gradient(20deg, rgb(131, 64, 255) 20%, rgb(131, 64, 255) 11%, rgb(89, 0, 255) 80%);
                 }
                     .picturebox .fa {
                             font-size: 70px;
                             position: absolute;
+                            z-index: 1;
                             
                         }
                     .picturebox img{
                         width: 100%;
+                    }
+                    .picturebox img:hover {
+                        opacity: 0.75;
                     }
 .container.video.show > .video-background{
     display: inline-block;

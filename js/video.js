@@ -14,17 +14,17 @@ class Video {
     addEvents() {
         this.playVideoDOM.addEventListener('click', () => {
         this.DOM.classList.add('show');
-        this.youtube.setAttribute("src")
+        this.youtube.setAttribute("src", `${videoData.link}`)
         
         });
         this.closeDOM.addEventListener('click', () => {
         this.DOM.classList.remove('show');
-        this.youtube.removeAttribute("src");
+        this.youtube.setAttribute("src", " ");
         });
         
         this.backDOM.addEventListener ('click',() => {
         this.DOM.classList.remove('show');
-        this.youtube.removeAttribute("src");
+        this.youtube.setAttribute("src", " ");
         }); 
 
     }
@@ -53,7 +53,7 @@ class Video {
                                             </div>
                                             <div class="video-box"> 
                                                 <div class="video-position">
-                                                    <iframe id="youtube" src="//www.youtube.com/embed/7e90gBu4pas?wmode=opaque&amp;autoplay=1&amp;enablejsapi=1" frameborder="0" allowfullscreen="true"></iframe>
+                                                    <iframe id="youtube" src="${videoData.link};autoplay=1&amp;enablejsapi=1" frameborder="0" allowfullscreen="true"></iframe>
                                                 </div> 
                                             </div>     
                                             <div class="video-footer">Fit image</div>
