@@ -66,14 +66,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 4rem;
     }
     .picturebox a:hover {
         opacity: 0.75;
+        font-size: 6rem;
     }
         .picturebox .fa {
-            font-size: 70px;
             position: absolute;
             z-index: 1;
+            transition: font-size 0.35s ease
             }
         .picturebox img{
             width: 100%;
