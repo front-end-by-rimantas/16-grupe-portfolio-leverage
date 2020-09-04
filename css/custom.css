@@ -37,3 +37,17 @@ p {
     text-align: center;
     --font-family-sans-serif: "Helvetica Neue",Arial;
 }
+
+.container.bg-black {
+    padding: 20px 0px;
+}
+    a {
+        text-decoration: none;
+        color: #5900FF;    
+    }
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
