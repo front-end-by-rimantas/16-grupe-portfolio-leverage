@@ -9,7 +9,7 @@
 @import './hero.css';
 @import './customization.css';
 @import './about-me.css';
-@import './services.css';
+@import './best-services.css';
 @import './achievements.css';
 @import './portfolio.css';
 @import './testimonials.css';
@@ -17,5 +17,7 @@
 @import './blog.css';
 @import './clients.css';
 @import './footer.css';
+@import './dash.css';
+@import './video.css';
 
 @import './custom.css';

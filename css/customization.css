@@ -1,8 +1,9 @@
 
 .icon {
     color: #7328FF;
-    width:35px;
-    height:35px;
+    width:45px;
+    height:45px;
     padding: 45px 0;
-    font-size: 35px;
+    font-size: 45px;
+    margin: 0 0 15px;
 }

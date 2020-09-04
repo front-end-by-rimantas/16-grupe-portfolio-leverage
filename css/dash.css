@@ -1,0 +1,21 @@
+section.dashed::after{  
+  position: absolute;
+  right: 50%;
+  top: -30px;
+  content: " ";
+  width: 5px;
+  height: 60px;
+  background: rgb(89,0,255);
+  background: linear-gradient(45deg, rgba(131,64,255,1) 0%, rgba(89,0,255,1) 35%, rgba(89,0,255,1) 100%);                          } ;
+*:after {
+    content: none;
+  }
+section {
+    position: relative;
+}
+@media (min-width: 786px){
+  section.dashed::after{
+    height: 100px;
+    top: -50px;
+  }
+}
