@@ -1,0 +1,63 @@
+.skill-container-top {
+    margin: 0 15px;
+}
+    .skill-container-top > h2 {
+        margin: 0 0 25px;
+    }
+    .skill-container-top > p {
+        max-width: 800px;
+        margin: auto;
+    }
+.skill-container-bottom {
+ 
+}
+    .skill-container-bottom > .skill-item {
+        grid-template-columns: 1fr;
+        width: 100%;
+        
+    }
+        .skill-item > .skill-gauge {
+        }
+            .skill-item > .skill-gauge > .gauge-progress {
+
+            }
+            .skill-item > .skill-gauge > .gauge-progress > svg {
+                position: relative;
+                width: 120px;
+                height: 120px;
+            }
+            .skill-item > .skill-gauge > .gauge-progress > svg > .background {
+                    width: 100px;
+                    height: 100px;
+                    fill: none;
+                    stroke: gray;
+                    stroke-width: 10;
+                    stroke-linecap: butt;
+                }
+
+                .skill-item > .skill-gauge > .gauge-progress > svg > .circle-progress {
+                    fill: none;
+                    stroke: #7328FF;
+                    stroke-width: 10;
+                    stroke-dashoffset: 690;
+
+                }
+
+            .skill-item > .skill-gauge > .gauge-value {
+                color: aliceblue;
+            }
+
+        .skill-item > h2 {
+            font-size: small;
+        }
+
+@media (min-width: 740px) {
+            .skill-item {
+                grid-template-columns: 1fr 1fr;
+            }         
+}
+@media (min-width: 1100px) {
+            .skill-item {
+                grid-template-columns: 1fr 1fr 1fr;
+            }         
+}

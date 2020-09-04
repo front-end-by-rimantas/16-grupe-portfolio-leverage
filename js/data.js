@@ -37,6 +37,30 @@ const bestServices = [
     }
 ];
 
-// other const
+// best skills
 
-export default { bestServices };
+const bestSkills  = [
+    {
+        percent: '42',
+        title: 'Marketing'
+    },
+    // {
+    //     percent: '60',
+    //     title: 'Branding'
+    // },
+    // {
+    //     percent: '84',
+    //     title: 'Web Design'
+    // },
+    // {
+    //     percent: '100',
+    //     title: 'WordPress'
+    // },
+];
+
+// other data
+
+export default { 
+    bestServices, 
+    bestSkills 
+};
