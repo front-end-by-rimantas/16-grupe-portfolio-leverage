@@ -1,0 +1,82 @@
+
+.show > .video-background {
+    display: inline-block;
+}
+.video-background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: black;
+    display: none;
+}   
+    .video-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .video-position {
+            width: 75%;
+            height: 65%;
+        }
+            .video-header {
+                /*display: inline-block;   Galbut nereikes*/ 
+                width: 100%;
+                position: absolute;
+            }
+            .video-header > .fa {
+                display: inline-block;
+                width: 100%;
+                color: #999;
+                display: inline-block;
+                float: right;
+                font-size: 20px;
+                padding: 10px 0px;
+                width: 50px;
+                cursor: pointer;
+            }
+            .video-header > .fa:hover{
+                color: #5900ff;
+            } 
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+            .video-footer{
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                color: white;
+                text-align: center;
+                padding: 10px 40px;
+                font-size: 20px;
+            }
+.picturebox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .picturebox a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+    }
+    .picturebox a:hover {
+        opacity: 0.75;
+        font-size: 6rem;
+    }
+        .picturebox .fa {
+            position: absolute;
+            z-index: 1;
+            transition: font-size 0.35s ease
+            }
+        .picturebox img{
+            width: 100%;
+        }
