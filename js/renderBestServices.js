@@ -7,7 +7,7 @@ function renderBestServices( selector, data ) {
     for ( let i=0; i<size; i++ ) {
 
         const service = data[i];
-        console.log(service);
+        
 
         HTML += `<div class="card col-12 col-sm-6 col-md-4">
                     ${service.icon}
