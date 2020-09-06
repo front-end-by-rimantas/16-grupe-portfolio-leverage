@@ -1,13 +1,10 @@
 class PortfolioFilterOption {
     constructor (params){
         this.parentDOM = params.parentDOM;
-        this.data = params.data;
+        this.tags = params.data;
 
         this.DOM = null;
         this.init();
-
-        
-        console.log(this.data);
     }
     init(){
         this.render();
@@ -17,7 +14,7 @@ class PortfolioFilterOption {
 
     }
     render(){
-        const HTML = `<div class="option">${this.data.title}</div>`
+        const HTML = `<div class="option">${this.tags}</div>`
         this.parentDOM.insertAdjacentHTML ('beforeend',HTML);
         this.DOM = this.parentDOM.querySelector('.option');
     }

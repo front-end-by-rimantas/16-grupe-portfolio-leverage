@@ -1,33 +1,32 @@
 export default [
     {
-        img: 'news1.jpg',
-        title: 'Laiminga',
-        tags: ['tech', 'digital','photography'],
-    },
-    {
-        img: 'news2.jpg',
-        title: 'VRSet',
-        tags: ['tech', 'branding'],
-
-    },
-    {
-        img: 'news3.jpg',
-        title: 'Laptopas',
-        tags: ['tech', 'digital'],
-    },
-    {
-        img: 'news4.jpg',
-        title: 'Serveris',
-        tags: ['design', 'digital', 'photography'],
+        img: 'news6.jpg',
+        title: 'Projektas',
+        tags: ['Design Thinking', 'Branding', 'Technology'],
     },
     {
         img: 'news5.jpg',
         title: 'Susikaupus',
-        tags: ['design', 'branding'],
+        tags: ['Design Thinking', 'Branding'],
     },
     {
-        img: 'news6.jpg',
-        title: 'Projektas',
-        tags: ['design', 'branding', 'tech'],
+        img: 'news4.jpg',
+        title: 'Serveris',
+        tags: ['Design Thinking', 'Digital Marketing', 'Photography'],
+    },
+    {
+        img: 'news3.jpg',
+        title: 'Laptopas',
+        tags: ['Technology', 'Digital Marketing'],
+    },
+    {
+        img: 'news2.jpg',
+        title: 'VRSet',
+        tags: ['Technology', 'Branding'],
+    },
+    {
+        img: 'news1.jpg',
+        title: 'Laiminga',
+        tags: ['Technology', 'Digital Marketing','Photography'],
     },
 ];

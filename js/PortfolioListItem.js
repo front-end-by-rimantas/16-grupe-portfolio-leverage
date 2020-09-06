@@ -5,9 +5,6 @@ class PortfolioListItem {
 
         this.DOM = null;
         this.init();
-
-        
-        console.log(this.data);
     }
     init(){
         this.render();
