@@ -1,28 +1,49 @@
-.skill-gauge {
-    grid-template-columns: 1fr;
-    margin: 30px 0 20px;
-    position: relative;
-
+.skill-container {
+    opacity: 1;
+    animation: show;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
-    .gauge-progress {
-        transform: rotate(-180deg);
-    }
-        .gauge-progress > svg {
-            position: relative;
-            width: 120px;
-            height: 120px;
+.skill-container.animate {
+    opacity: 1;
+    animation: show;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}    
+    @keyframes show {
+        from {
+            opacity: 0;
+            transform: translateY(100px);
         }
-            svg > .background {
-                fill: none;
-                stroke: #d4d4d4;
-                stroke-width: 10;
+        to {
+        opacity: 1;
+        transform: translateY(0);
+        }
+    }
+    .skill-gauge {
+        margin: 30px 0 20px;
+        position: relative;
+    }
+        .skill-gauge > .gauge-progress {
+            transform: rotate(-180deg);
+        }
+            .gauge-progress > svg {
+                width: 120px;
+                height: 120px;
             }
-            svg > .circle-progress {
-                stroke: #7328FF;
-                stroke-width: 10;
-                fill: none;
-            }
-        .gauge-value {
+                svg > .background {
+                    stroke: #d4d4d4;
+                    stroke-width: 10;
+                    fill: none;
+                    width: 100px;
+                    height: 100px;
+                }
+                svg > .circle-progress {
+                    stroke: #7328FF;
+                    stroke-width: 10;
+                    fill: none;
+                }
+        .skill-gauge > .gauge-value {
             position: absolute;
             top: 0;
             left: 0;
@@ -32,7 +53,6 @@
             justify-content: center;
             align-items: center;
         }
-
             .gauge-value > h3 {
                 color: #888;
                 font-weight: 700;
@@ -44,7 +64,6 @@
                 font-weight: 700;
                 font-size: 15px;
             }
-
     .skill-name {
         margin: 24px 0 30px;
         font-size: 19px;
@@ -52,14 +71,3 @@
         font-weight: 700;
         text-align: center;
     }
-
-@media (min-width: 740px) {
-    .skill-gauge {            
-        grid-template-columns: 1fr 1fr;
-    }         
-}
-@media (min-width: 1100px) {
-    .skill-gauge {
-        grid-template-columns: 1fr 1fr 1fr;
-    }         
-}
