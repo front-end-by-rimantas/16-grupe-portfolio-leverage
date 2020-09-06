@@ -18,13 +18,14 @@ class PortfolioListItem {
     }
     render(){
         const HTML = `<div class="item">
-                        <div class="card">
+                        <div class="cards">
                             <img src="./img/portfolio/${this.data.img}" alt="${this.data.title}">
-                            <div clas="hover"></div>
+                            <div class="hover"></div>
                             <div class="cardText">
                                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                             </div>
+                            
                         </div>    
                     </div>`
         this.parentDOM.insertAdjacentHTML('beforeend',HTML);
