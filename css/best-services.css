@@ -39,7 +39,7 @@
         margin-top: 30px;
     }
     .icon {
-        margin-bottom: 24px;
+        margin-bottom: 22px;
     }
     @media (min-width: 1000px) {
         .text-md-left {
@@ -55,4 +55,4 @@
         .card {
             grid-template-columns: 1fr 1fr 1fr;
         }         
-    }
+    }   

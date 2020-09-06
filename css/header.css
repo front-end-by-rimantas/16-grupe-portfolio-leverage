@@ -1,52 +1,37 @@
 .logo {
-  display: inline-block;
-  font-size: 28px;
-  font-weight: 700;
-  color: #333;
-  padding: 10px 0;
-}
-
-  span {
-    color:blue;
     display: inline-block;
-  }
-
-  .navbar {
-  display: grid;
-  grid-auto-flow: column;
-  background-color: #F5F5F5;
-  grid-gap: 1em;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    padding: 10px 0;
 }
+    span {
+        color:blue;
+        display: inline-block;
+   }
+      .navbar {
+          display: grid;
+          grid-auto-flow: column;
+          background-color: #F5F5F5;
+          grid-gap: 1em;
+    }
 
   .links {
-    display: grid;
-    align-content: center;
-    grid-auto-flow: column;
-    grid-gap: 1.5em;
-    font-size: 15px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 25px 0;
-    white-space: nowrap;
-
-  .fa.fa-rocket {
-      padding: 10px 10px;
+      display: grid;
+      align-content: center;
+      grid-auto-flow: column;
+      grid-gap: 1.5em;
+      font-size: 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 25px 0;
+      white-space: nowrap;
   }
-
-
-    a {
+  .fa .fa-rocket {
+      padding: 10px 10px;
+  }    a {
       color: #333 !important;
       padding: 10px 10px;
     }
-
-    @media (min-width: 520px) {
-      grid-gap: 0.5em;
-    }
-    @media (min-width: 786px) {
-      grid-gap: 1em;
-    }
-    @media (min-width: 1000px) {
-      grid-gap: 1.em;
-    
