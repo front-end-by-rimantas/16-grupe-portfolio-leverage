@@ -37,6 +37,46 @@ const bestServices = [
     }
 ];
 
-// other const
+const skills = [
+    {
+        name: "Marketing",
+        value: 42,
+        colorGrade: {
+            second: "#5900FF",
+            background: "#E5E5E5",
+            first: "#813DFF",
+        },
+    },
+    {
+        name: "Branding",
+        value: 60,
+        colorGrade: {
+            first: "#813DFF",
+            second: "#5900FF",
+            background: "#E5E5E5",
+        },
+    },
+    {
+        name: "Web Design",
+        value: 84,
+        colorGrade: {
+            first: "#813DFF",
+            second: "#5900FF",
+            background: "#E5E5E5",
+        },
+    },
+    {
+        name: "WordPress",
+        value: 100,
+        colorGrade: {
+            first: "#813DFF",
+            second: "#5900FF",
+            background: "#E5E5E5",
+        },
+    }
+];
 
-export default { bestServices };
+export default {
+    bestServices,
+    skills
+};
