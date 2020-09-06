@@ -1,4 +1,4 @@
-class PortfolioListItem {
+class PortfolioFilterOption {
     constructor (params){
         this.parentDOM = params.parentDOM;
         this.data = params.data;
@@ -17,9 +17,9 @@ class PortfolioListItem {
 
     }
     render(){
-        const HTML = `<div class="item">${this.data.img}</div>`
-        this.parentDOM.insertAdjacentHTML('beforeend',HTML);
-        this.DOM = this.parentDOM.querySelector('.item');
+        const HTML = `<div class="option">${this.data.title}</div>`
+        this.parentDOM.insertAdjacentHTML ('beforeend',HTML);
+        this.DOM = this.parentDOM.querySelector('.option');
     }
 }
-export {PortfolioListItem};
+export {PortfolioFilterOption};

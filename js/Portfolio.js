@@ -4,7 +4,7 @@ import {PortfolioList} from './portfolioList.js'
 class Portfolio {
     constructor (params){
         this.selector = params.selector;
-
+        this.data = params.data;
         this.selectorDOM = null;
         this.DOM = null;
 
@@ -12,6 +12,7 @@ class Portfolio {
         this.list = null;
 
         this.init();
+
     }
     init(){
         if (!this.isValidSelector()) {
@@ -20,9 +21,11 @@ class Portfolio {
         this.render();
         this.filter = new PortfolioFilter({
             parentDOM: this.DOM,
+            data: this.data,
         });
         this.list = new PortfolioList({
             parentDOM: this.DOM,
+            data: this.data,
         })
         this.addEvents();
     }

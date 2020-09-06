@@ -26,7 +26,7 @@ export default [
         tags: ['design', 'branding'],
     },
     {
-        img: 'news6.jpg.jpg',
+        img: 'news6.jpg',
         title: 'Projektas',
         tags: ['design', 'branding', 'tech'],
     },
