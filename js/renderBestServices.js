@@ -1,7 +1,6 @@
 function renderBestServices( selector, data ) {
 
 
-<<<<<<< Updated upstream
     for ( let i=0; i<size; i++ ) {
 
         const service = data[i];
@@ -16,6 +15,4 @@ function renderBestServices( selector, data ) {
     }
     return DOM.innerHTML = HTML;
 }
-=======
->>>>>>> Stashed changes
 export { renderBestServices };
