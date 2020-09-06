@@ -1,3 +1,14 @@
 #skills {
     
 }
+    .container > .row.skills-bar {
+        row-gap: 40px;
+    }
+    .skills-bar > .bar {
+
+        }   
+    .skills-bar > .bar .bar-name {
+
+        }   
+
+        
