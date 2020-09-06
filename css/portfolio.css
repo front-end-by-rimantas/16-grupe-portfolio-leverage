@@ -1,0 +1,40 @@
+.portfolioList{
+    display: grid;
+}
+
+    .portfolioList > .filter{
+
+    }
+        .portfolioList > .filter > .option{
+
+        }
+
+    .portfolioList > .list {
+        display: grid;
+        grid-template-columns: repeat( auto-fill, minmax( 280px, 1fr ));
+    }
+        .portfolioList > .list > .item{
+
+        }
+            .portfolioList > .list > .item > .card{
+                padding: 0;
+                position: relative;
+            }
+            .portfolioList > .list > .item > .card:hover{
+
+            }
+                .portfolioList > .list > .item > .card > img{
+                    width: 100%;
+                }
+                .portfolioList > .list > .item > .card > .cardText{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                }
+                    .portfolioList > .list > .item > .card > .cardText > h4{
+
+                    }
+                    .portfolioList > .list > .item > .card > .cardText > p{
+
+                    }
