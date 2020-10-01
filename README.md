@@ -5,7 +5,9 @@
 # Leverage
 ### 16 group portfolio leverage website project
 
-This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
+This project is intended for educational purposes only. 
+
+Pull requests are welcome, but priority for my real-life students! Thank you for your cooperation!
 
 Site published at https://front-end-by-rimantas.github.io/16-grupe-portfolio-leverage/index.html
 
