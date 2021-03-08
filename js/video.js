@@ -40,7 +40,7 @@ class Video {
                                         <div class="col-12 picturebox">
                                             <a class="play" href="#"> 
                                                 <i class="fa fa-play"></i>
-                                                <img src="../img/watchVideoPic.jpg" alt="videoPhoto">
+                                                <img src="./img/watchVideoPic.jpg" alt="videoPhoto">
                                             </a>
                                         </div>
                                     </div>

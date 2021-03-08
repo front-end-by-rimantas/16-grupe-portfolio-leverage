@@ -1,0 +1,74 @@
+.portfolioList{
+    display: grid;
+}
+
+    .portfolioList > .filter{
+        margin-bottom: 20px;
+    }
+        .portfolioList > .filter > .option{
+            display: inline-block;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+    .portfolioList > .list {
+        display: grid;
+        grid-template-columns: repeat( auto-fill, minmax( 270px, 1fr ));
+        gap: 30px;
+    }
+        .portfolioList > .list > .item{
+            transition-timing-function: cubic-bezier(.25, .25, .75, .75);
+            transition-duration: 0.3s;
+            transition-property: opacity, transform;
+        }
+            .portfolioList > .list > .item > .cards{
+                padding: 0;
+                position: relative;
+            }
+            .portfolioList > .list > .item:hover{
+                transform: translateY(-7px);
+                }
+                .portfolioList > .list > .item > .cards> img{
+                    width: 100%;
+                }
+                .portfolioList > .list > .item > .cards > .hover{
+                    background: linear-gradient(20deg, rgb(131, 64, 255) 20%, rgb(131, 64, 255) 11%, rgb(89, 0, 255) 80%);
+                    color: white;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    top: 0;
+                    opacity: 0.8;
+                    display: none;
+                }
+                .portfolioList > .list > .item:hover > .cards > .cardText > h4,
+                .portfolioList > .list > .item:hover > .cards > .cardText > p,
+                .portfolioList > .list > .item:hover > .cards > .hover{
+                    display: inline-block;
+                }
+                    .portfolioList > .list > .item > .cards > .cardText{
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        left: 0;
+                    }
+                        .portfolioList > .list > .item > .cards > .cardText > h4{
+                            color: #f5f5f5;
+                            padding: 35px 30px;
+                            font-size: 30px;
+                            display: none;
+                        }
+                        .portfolioList > .list > .item > .cards > .cardText > p{
+                            color: #f5f5f5;
+                            padding: 30px 0;
+                            font-size: 22px;
+                            display: none;
+                        }
+@media(min-width: 1400px){
+    .portfolioList > .list {
+        display: grid;
+        grid-template-columns: repeat( auto-fill, minmax( 330px, 1fr ));
+    }
+}
